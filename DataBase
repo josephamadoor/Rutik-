@@ -1,7 +1,0 @@
-function guardarDatos(data){
-  localStorage.setItem("horario", JSON.stringify(data));
-}
-
-function obtenerDatos(){
-  return JSON.parse(localStorage.getItem("horario")) || [];
-}
